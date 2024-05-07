@@ -7,7 +7,7 @@ services:
       - PUID=1000
       - PGID=1000
       - MONGO_INITDB_ROOT_USERNAME=admin
-      - MONGO_INITDB_ROOT_PASSWORD=<password-default>
+      - MONGO_INITDB_ROOT_PASSWORD=<password-root-database>
       - MONGO_INITDB_DATABASE=guia_edutec
     ports:
       - "30998:27017"
