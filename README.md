@@ -4,10 +4,11 @@
 
 ## Database project
 
+* [Technical Documentation](https://github.com/EL-BID/geos-database/blob/master/Documentaci%C3%B3n_T%C3%A9cnica_Guia_Edutec.pdf)
 
 Access to other projects
 * [Back-end](https://github.com/EL-BID/geos-backend)
-* [Front-end](hhttps://github.com/EL-BID/geos-frontend)
+* [Front-end](https://github.com/EL-BID/geos-frontend)
 
 
 ---
