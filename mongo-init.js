@@ -4,7 +4,7 @@ db.createUser({
 	roles: [
 		{
 			role: "readWrite",
-			db: "guia_edutec",
+			db: "guia_edutec_v2",
 		},
 	],
 });
