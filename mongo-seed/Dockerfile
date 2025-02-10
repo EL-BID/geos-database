@@ -1,4 +1,4 @@
 FROM mongo:4.2.12
 
-COPY database/guia_edutec /guia_edutec_v2
-CMD  mongorestore --host=mongo --db=guia_edutec_v2 -u admin -p abc123 /guia_edutec_v2 --gzip --drop --authenticationDatabase=admin
+COPY database/guia_edutec /guia_edutec
+CMD  mongorestore --host=mongo --db=guia_edutec -u admin -p abc123 /guia_edutec --gzip --drop --authenticationDatabase=admin
