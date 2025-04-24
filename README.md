@@ -38,7 +38,7 @@ Authenticated : docker exec <mongodb container> sh -c 'mongodump --authenticatio
 mongorestore
 No Auth : docker exec -i <mongodb container> sh -c 'mongorestore --archive' < db.dump
 
-Authenticated : docker exec -i <mongodb container> sh -c 'mongorestore --authenticationDatabase admin -u <user> -p <password> --db <database> --archive' < db.dump
+Authenticated : docker exec -i <mongodb container> sh -c 'mongorestore --authenticationDatabase admin -u <user> -p <password> --authenticationMechanism SCRAM-SHA-256 --db <database> --drop --archive' < db.dump
 
 
 ## Update Database Seed
