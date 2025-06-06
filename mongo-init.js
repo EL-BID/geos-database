@@ -1,10 +1,12 @@
-db.createUser({
-	user: "admin",
-	pwd: "abc123",
-	roles: [
-		{
-			role: "readWrite",
-			db: "guia_edutec",
-		},
-	],
-});
+db.createUser(
+    {
+        user: "geos",
+        pwd: "<password-default>",
+        roles: [
+            {
+                role: "readWrite",
+                db: "guia_edutec"
+            }
+        ]
+    }
+);
